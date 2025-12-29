@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/academic-project-page-template-vue',
+  base:'/Scale-DiT-page',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

@@ -3,11 +3,12 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@article{zhang2025scaledIT,",
+        "  title={Scale-DiT: Ultra-High-Resolution Image Generation with Hierarchical Local Attention},",
+        "  author={Zhang, Yuyao and Tai, Yu-Wing},",
+        "  journal={arXiv preprint arXiv:2510.16325},",
+        "  year={2025},",
+        "  doi={10.48550/arXiv.2510.16325}",
         "}",
       ],
     }

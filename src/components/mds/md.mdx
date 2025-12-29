@@ -1,53 +1,42 @@
-# Markdown (H1)
+import pipelinePdf from '../../assets/images/Pipeline_new.pdf'
+import teaserPdf from '../../assets/images/Teasor-2.pdf'
+import appendix4kPdf from '../../assets/images/Appendix-4k.pdf'
+import appendix4k2Pdf from '../../assets/images/Appendix-4k-2.pdf'
 
-The render result of `md.mdx` is here.
+## Overview
 
-## Good (H2)
+Scale-DiT enables **efficient ultra-high-resolution** text-to-image generation by combining:
 
-### Nice (H3)
+- **Hierarchical local attention** on high-res latents (fixed-size windows) to reduce attention from quadratic to near-linear complexity
+- **Low-resolution global guidance** with scaled positional anchors to preserve global semantics
+- A lightweight **LoRA bridge** to keep global structure and local detail consistent during denoising
 
-[**Diffusion models**](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) are a class of generative models in machine learning that have gained significant attention in recent years. 
+## Pipeline
 
-**Text-to-image diffusion models** have various application scenarios, including:
+<iframe class="pdf-embed" src={pipelinePdf} />
 
-- **Art & Design**: Used by artists for creative art and fashion designers to generate clothing renderings.
-- **Advertising & Marketing**: Helps in creating advertising posters and product promotion maps.
-- **Game & Film**: Applied in game scene and character design, as well as film and television concept design...
+<div class="figure-links">
+  <a href={pipelinePdf} target="_blank" rel="noreferrer">Open pipeline figure (PDF)</a>
+</div>
 
-> Thegeneral training steps of diffusion models are as follows:
+## Teaser
 
-1. Data collection
-2. Noise addition
-3. Model building
-4. Training
-5. Evaluation
-6. Deployment
+<iframe class="pdf-embed" src={teaserPdf} />
 
+<div class="figure-links">
+  <a href={teaserPdf} target="_blank" rel="noreferrer">Open teaser figure (PDF)</a>
+</div>
 
-```
-import torch 
+## 4K comparisons (Appendix)
 
-def denoise():
-    pass
-```
+<iframe class="pdf-embed" src={appendix4kPdf} />
 
-* [ ] to do
-* [x] done
-* [x] ~114514~
+<div class="figure-links">
+  <a href={appendix4kPdf} target="_blank" rel="noreferrer">Open 4K comparisons (PDF)</a>
+</div>
 
-![](./logo_vision_aigc.png)
+<iframe class="pdf-embed" src={appendix4k2Pdf} />
 
-Lift ($$L$$) can be determined by Lift Coefficient ($$C_L$$) like the following
-equation.
-
-$$
-L = \frac{1}{2} \rho v^2 S C_L
-$$
-
-
-### Table (H3)
-
-| a       | b       | c     |  d      |
-| -       | :-      | -:    | :-:     |
-| Alpha   | Bravo   | Alpha | Bravo   |
-| 中文    | Charlie | 👩‍❤️‍👩    | Delta   |
+<div class="figure-links">
+  <a href={appendix4k2Pdf} target="_blank" rel="noreferrer">Open more 4K comparisons (PDF)</a>
+</div>

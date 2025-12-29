@@ -114,6 +114,26 @@ p > img {
   box-shadow: 1px 1px 4px 1px #afafaf;
 }
 
+.pdf-embed {
+  width: 100%;
+  height: 760px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px #afafaf;
+  background: white;
+}
+
+.figure-links {
+  text-align: center;
+  margin: 10px 0 22px 0;
+}
+
+@media (max-width: 768px) {
+  .pdf-embed {
+    height: 520px;
+  }
+}
+
 table {
   border-collapse: collapse;
   width: max-content;
