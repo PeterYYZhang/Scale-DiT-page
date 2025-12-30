@@ -1,18 +1,11 @@
 <script lang="ts" setup>
 
-import { ElIcon } from 'element-plus'
-import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
-
-// 个人主页
-const home = {
-    name: "My Blog",
-    link: "https://junyaohu.github.io/",
-}
+import { SuccessFilled } from '@element-plus/icons-vue'
 
 // 项目主页
 const logo = {
-    name: "Template",
-    link: "#",
+    name: "Scale-DiT",
+    link: "https://arxiv.org/abs/2510.16325",
 }
 
 // 右侧更多菜单
@@ -44,12 +37,6 @@ const more_paper = {
         mode="horizontal"
         :ellipsis="false"
     >
-        <!-- 个人主页 -->
-        <el-menu-item index="0" >
-            <el-icon :size="20"><HomeFilled /></el-icon>
-            <a :href=home.link>{{ home.name }} </a>
-        </el-menu-item>
-        
         <!-- 项目主页 -->
         <el-menu-item index="1">
             <el-icon :size="20"><SuccessFilled /></el-icon>
@@ -103,7 +90,7 @@ const more_paper = {
 <style scoped>
 
 /* 水平导航左右分区 */
-.el-menu--horizontal > .el-menu-item:nth-child(2) {
+.el-menu--horizontal > .el-menu-item:nth-child(1) {
     margin-right: auto;
 }
 

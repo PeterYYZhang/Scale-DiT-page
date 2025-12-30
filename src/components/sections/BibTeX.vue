@@ -8,7 +8,6 @@ export default {
         "  author={Zhang, Yuyao and Tai, Yu-Wing},",
         "  journal={arXiv preprint arXiv:2510.16325},",
         "  year={2025},",
-        "  doi={10.48550/arXiv.2510.16325}",
         "}",
       ],
     }

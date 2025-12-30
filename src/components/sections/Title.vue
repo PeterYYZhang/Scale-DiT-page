@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 
-import { Document, Link, PriceTag } from '@element-plus/icons-vue'
+import { Document, Link, Files } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
 const logo = ''
@@ -68,15 +68,9 @@ const buttons = [
   },
   {
     disabled: false,
-    name: "DOI",
-    link: "https://doi.org/10.48550/arXiv.2510.16325",
-    component: PriceTag
-  },
-  {
-    disabled: true,
     name: "Code",
-    link: "#",
-    component: Link
+    link: "https://github.com/PeterYYZhang/Scale-DiT",
+    component: Files
   },
 ]
 
